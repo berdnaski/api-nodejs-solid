@@ -51,7 +51,6 @@ export class CheckInUseCase {
         if(distance > MAX_DISTANCE_IN_KILOMETERS) {
             throw new MaxDistanceError();
         }
-        // calculate distance between user and gym
 
         const checkInOnSameDate = await this.checkInsRepository.findByUserIdOnData(
             userId,

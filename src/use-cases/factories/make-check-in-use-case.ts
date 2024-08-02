@@ -1,5 +1,3 @@
-import { PrismaUsersRepository } from "@/repository/prisma/prisma-users-repository"
-import { GetUserProfileUseCase } from "../get-user-profile";
 import { CheckInUseCase } from "../check-in";
 import { PrismaCheckInsRepository } from "@/repository/prisma/prisma-check-in-repository";
 import { PrismaGymsRepository } from "@/repository/prisma/prisma-gyms-repository";
